@@ -30,7 +30,7 @@ function getUserInfo() {
         // },
         success: (res) => {
             if (res.status !== 0) return layer.msg("获取信息失败！")
-            layer.msg("获取信息成功！")
+            // layer.msg("获取信息成功！")
             // console.log(res);
             // 吧获取的用户信息传过去res.data
             renderAvatar(res.data)
